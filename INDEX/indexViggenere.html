@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styleViggenere.css">
+    <title>VIGGENERE</title>
+</head>
+<body>
+    <header>
+        <h1>
+            CIFRADO VIGGENERE
+        </h1>
+    </header>
+    <br>
+    <div class = 'containerCifrar' id = 'contenedorCifrado'>
+        <label>INGRESA EL MENSAJE A CIFRAR</label>
+        <input type="text" id = 'mensaje'>
+        <br>
+        <br>
+        <label>INGRESA LA CLAVE</label>
+        <br>
+        <input type="text" id = 'clave'>
+        <br>
+        <div id = 'resultado1'>
+
+        </div>
+        <br>
+        <button onclick="Cifrar()">CIFRAR</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class = 'containerDecifrar' id = 'contenedorDecifrado'>
+        <label>INGRESA EL MENSAJE A DECIFRAR</label>
+        <input type="text" id = 'mensaje_cif'>
+        <br>
+        <br>
+        <label>INGRESA LA CLAVE</label>
+        <br>
+        <input type="text" id = 'clave2'>
+        <br>
+        <div id = 'resultado2'>
+
+        </div>
+        <br>
+        <button onclick="Decifrar()">DECIFRAR</button>
+    </div>
+    <footer>
+        <a href="../index.html">
+            VOLVER AL INDICE
+        </a>
+    </footer>
+    <script src = "../JS/scriptViggenere.js"></script>
+</body>
+</html>

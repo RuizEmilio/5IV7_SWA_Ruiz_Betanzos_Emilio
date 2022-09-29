@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styleCesar.css">
+    <title>CESAR</title>
+</head>
+<body>
+    
+    <br>
+    <div id = 'contenedorCifrado'>
+        <label>INGRESA EL TEXTO SIN CIFRAR</label>
+        <input class = 'input' type="text" id = 'cadena'>
+        <br>
+        <br>
+        <button onclick="Cifrar()">CIFRAR</button>
+        <br>
+    </div>
+    <div id = 'contenedorClave'>
+        <label>INGRESA LA CLAVE DEL MENSAJE</label>
+        <input type="number" class = 'input' id = 'clave'>
+    </div>
+    <hr>
+    <div id = 'contenedorDecifrado'>
+        <label>INGRESA EL TEXTO CIFFRADO</label>
+        <input type="text" id = 'cadenaCifrada' class = 'input'>
+        <br>
+        <br>
+        <button onclick="Decifrar()">DECIFRAR</button>
+        <br>
+    </div>
+    <footer>
+        <a href="../index.html">
+            VOLVER AL INDICE
+        </a>
+    </footer>
+    <script src="../JS/scriptCesar.js" ></script>
+</body>
+</html>
